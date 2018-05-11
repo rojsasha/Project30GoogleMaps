@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private void callServicesDialogPermissions() {
         new AlertDialog.Builder(this)
+
                 .setTitle("Go to Permissions App")
                 .setMessage("Please, turn on GPS to HIGH ACCURACY mode")
                 .setCancelable(false)
